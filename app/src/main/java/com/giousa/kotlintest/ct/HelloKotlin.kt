@@ -14,7 +14,7 @@ fun main(args: Array<String>){
     val user2 = User(2, null)
     println(user)
     println(user2)
-    HelloKotlin::class.constructors.map { user }
+    HelloKotlin::class.constructors.map(::println)
 }
 
 class HelloKotlin{
