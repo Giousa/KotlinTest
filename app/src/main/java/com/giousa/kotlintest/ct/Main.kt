@@ -1,4 +1,4 @@
-package com.giousa.kotlintest
+package com.giousa.kotlintest.ct
 
 /**
  *
